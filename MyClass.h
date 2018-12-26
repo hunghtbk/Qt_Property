@@ -7,7 +7,7 @@
 class MyClass: public QObject
 {
     Q_OBJECT
-    Q_PROPERTY(QString m_text READ getText WRITE setText NOTIFY emitChangedtext)
+    Q_PROPERTY(QString m_textQML READ getText WRITE setText NOTIFY emitChangedtext)
 public:
     MyClass(QObject *parent = 0);
     void m_setProperty();

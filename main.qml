@@ -9,7 +9,7 @@ Window {
 
     Text {
         anchors.centerIn: parent
-        text: MyClass.m_text;
+        text: MyClass.m_textQML;
     }
 
     Rectangle {
